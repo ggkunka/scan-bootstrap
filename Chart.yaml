@@ -1,0 +1,8 @@
+apiVersion: v2
+name: scan-bootstrap
+description: "Umbrella chart to bootstrap Argo Workflows and schedule monthly security scans"
+version: 0.1.0
+appVersion: "1.0"
+# Indicate that CRDs in crds/ should be applied
+crds:
+  - crds/workflow-crd.yaml
